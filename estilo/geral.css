@@ -1,8 +1,31 @@
 table {
     width: 400px;
     border-collapse: collapse;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+thead {
+    position: sticky;
+    top: -1;
+    background-color: #808080;
+}
+
+tr:nth-child(odd) {
+    background-color: #c5c2c2;
+}
+
+th {
+    background-color: #808080;
 }
 
 tr, th, td {
     border: 1px solid #000;
+    padding: 10px;
 }
+
