@@ -4,6 +4,7 @@ table {
     text-align: center;
     position: relative;
     margin: auto;
+    font-size: 1.5em;
 }
 h1 {
     text-align: center;
@@ -12,7 +13,7 @@ h1 {
 
 thead {
     position: sticky;
-    top: -1;
+    top: -1px;
     background-color: #808080;
 }
 
@@ -27,5 +28,22 @@ th {
 tr, th, td {
     border: 1px solid #000;
     padding: 10px;
+}
+
+.imagem {
+   
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background: #000 url(../imagem/maoa-brasil.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+.section {
+    font-size: 1.5em;
+    padding-top: 50px;
+    margin: auto;
+    width: 400px;
+   
+    
 }
 
