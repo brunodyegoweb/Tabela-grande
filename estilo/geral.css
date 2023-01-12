@@ -35,7 +35,7 @@ tr, th, td {
     width: 400px;
     height: 400px;
     margin: auto;
-    background: #000 url(../imagem/maoa-brasil.jpg) center center no-repeat fixed;
+    background: #000 url(../imagem/maoa-brasil-500.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 .section {
